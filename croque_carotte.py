@@ -7,8 +7,18 @@ Created on Thu Oct 22 20:13:27 2020
 
 from random import randrange, shuffle
 import pickle
+import pygame
+
+
+
 
 def menuPartie():
+    pygame.init()
+
+    #window = pygame.display.set_mode((500, 500))
+    #pygame.display.set_caption("Croque carottes")
+
+
     choix = 0
     
     print("\n\t*** Croque Carotte ***")
